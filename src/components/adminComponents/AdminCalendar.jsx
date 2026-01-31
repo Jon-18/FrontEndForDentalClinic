@@ -4,7 +4,7 @@ import ModalForm from "../ModalForm";
 import MessageModal from "../ModalMessage";
 
 export default function AdminCalendar() {
-  const [bookedAppointments, setBookedAppointments] = useState([]);
+  const [bookedAppointments, ] = useState([]);
   const [showFormModal, setShowFormModal] = useState(false);
   const [showModalMessage, setShowModalMessage] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
