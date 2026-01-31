@@ -11,7 +11,7 @@ export default function PatientCalendar() {
   const [paymentMethod, setPaymentMethod] = useState("");
   const [receiptFile, setReceiptFile] = useState(null);
   const [services, setServices] = useState([]);
-  const [formDefaultDate, setFormDefaultDate] = useState(null);
+  const [, setFormDefaultDate] = useState(null);
 
   const minSelectableDate = new Date();
   minSelectableDate.setHours(0, 0, 0, 0);
